@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: flight2024-app
 spec:
-  replicas: 2
+  replicas: 5  # Escalado a 5 réplicas
   selector:
     matchLabels:
       app: flight2024
